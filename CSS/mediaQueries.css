@@ -1,0 +1,46 @@
+@media screen and (max-width:1024px){
+    /* banner-section */
+    .hero-text{
+        padding-top:20px;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    
+    /* banner section */
+    .hero-text{
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .hero-text h3, .hero-text p{
+        text-align: center !important;
+    }
+    .hero-text p{
+        padding-right:0 !important;
+    }
+    /* footer */
+    .Footer{
+        align-items: start !important;
+        padding-left: 10px;
+        overflow-x: hidden !important;
+    }
+    .Footer div:nth-child(2), .Footer div:nth-child(3){
+        gap:10px !important;
+        padding-top:20px;
+    }
+}
+@media screen and (max-width:425px) {
+    /* Sub Footer Section */
+    .subFooterSection{
+        gap:5px !important;
+    }
+    .subFooterH2, .subFooterP{
+        padding-block:5px;
+        padding-inline:1px !important;
+    }
+    .subFooterSection div:last-child button{
+        padding-inline:50px !important;
+    }
+}
